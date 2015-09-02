@@ -11,6 +11,7 @@ vim comment plugin
 ## 使用
 ----
 安装完成后，在.vimrc中设置相关变量
+
         let g:CompanyName = "公司网站或者名称"
         let g:AuthorName = "姓名"
         let g:AuthorEmail = "youremail@lubanr.com"
