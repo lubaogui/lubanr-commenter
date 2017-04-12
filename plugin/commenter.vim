@@ -425,7 +425,7 @@ function! <SID>GetDoxFileHeader(leading_blank)
     let doc = doc. a:leading_blank." * Copyright (c) ".<SID>GetYear()." ".g:CompanyName." All Rights Reserved\n"
     let doc = doc. a:leading_blank." *\n"
     let doc = doc. a:leading_blank." **************************************************************************/\n"
-    let doc = doc. a:leading_blank." \n \n \n"
+    let doc = doc. a:leading_blank." \n"
     let doc = doc. a:leading_blank."/**\n"
     let doc = doc. a:leading_blank." * @file ".<SID>GetFileName()."\n"
     let doc = doc. a:leading_blank." * @author ".g:AuthorName."(".g:AuthorEmail.")\n"
