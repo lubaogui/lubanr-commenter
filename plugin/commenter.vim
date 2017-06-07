@@ -602,8 +602,8 @@ endfunction
 function! <SID>InsertHeadFormat()
     let s = toupper(<SID>GetFileName())
     let s = substitute(s, "[\.]", "_", "g")
-    call append(19, "#ifndef  __". s. "_")
-    call append(20, "#define  __". s. "_")
+    call append(15, "#ifndef  __". s. "_")
+    call append(16, "#define  __". s. "_")
     call append(line('$')-2, "#endif  //__". s. "_")
 endfunction
 
